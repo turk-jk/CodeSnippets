@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>collectionview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var collectionView : UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .&lt;#T##String#&gt;
+        let v = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        v.delegate = self
+        v.dataSource = self
+        v.backgroundColor = .white
+        v.register(&lt;#T##cellClass: AnyClass?##AnyClass?#&gt;, forCellWithReuseIdentifier: &lt;#T##String#&gt;)
+        return v
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>66A02C0D-6C6A-4DCF-B1D4-8DF97E4DFE2B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create collectionview template</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>collectionview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

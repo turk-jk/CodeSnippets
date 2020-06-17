@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewcontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+class &lt;#VC name#&gt;: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        addSubviews()
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        layout()
+    }
+    func addSubviews() {
+        view.addSubview(imageview)
+    }
+    func layout(){
+        
+    }
+    /*
+    lazy var &lt;#property name#&gt; : &lt;#expression#&gt; = {
+        let v = &lt;#expression#&gt;()
+        return v
+    }()
+    lazy var &lt;#property name#&gt; : &lt;#expression#&gt; = {
+        let v = &lt;#expression#&gt;()
+        return v
+    }()
+    lazy var &lt;#property name#&gt; : &lt;#expression#&gt; = {
+        let v = &lt;#expression#&gt;()
+        return v
+    }()
+    */
+    deinit {
+        print("deinit \(String(describing: type(of: self)))")
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>49F50992-1FF3-40B8-A7F6-2922080B6AFC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>New view controller</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

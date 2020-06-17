@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var tableView : UITableView = {
+        let v = UITableView(frame: .zero, style: UITableView.Style.plain)
+        v.delegate = self
+        v.dataSource = self
+        v.separatorStyle = .none
+        v.estimatedRowHeight = 2
+        v.rowHeight = UITableView.automaticDimension
+        v.backgroundColor = .red
+        v.register(&lt;#Cell Class#&gt;.self, forCellReuseIdentifier: &lt;#Cell id#&gt;)
+        return v
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EB09AB79-6358-4802-9DD4-0902B013E8A0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableview </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
